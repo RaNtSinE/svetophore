@@ -5,9 +5,8 @@
 #include <time.h>
 #include <windows.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char** argv) {
+int main() {
 	int n,u,i,j,y;
 	i=1;
 	system("chcp 1251");
