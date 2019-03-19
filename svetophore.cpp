@@ -6,13 +6,18 @@
 
 
 int main() {
-	int n,u,i,j,y;
-	i=1;
+	int n,u,i,j,y,p;
+	i=0;
 	system("chcp 1251");
 	system("cls");
-	HANDLE hConsole=GetStdHandle(STD_OUTPUT_HANDLE);
-	for (i=1;i<10000;i++){
+	HANDLE hConsole=GetStdHandle(STD_OUTPUT_HANDLE); 
+	p=1;
+	
+	 while(p==1){
+		 if (i==4)
+			 i=0;
 		n=i%4;
+		 i++;
 	if (n==0){
 		
 		SetConsoleTextAttribute(hConsole, (WORD) ((8<<4)|8));
